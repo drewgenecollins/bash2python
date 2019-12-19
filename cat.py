@@ -8,4 +8,5 @@ parser=argparse.ArgumentParser()
 parser.add_argument('cat', help ='prints out a file')
 args= parser.parse_args()
 file=open(args.cat)
-print(file.read(), end='')
+print(file.read(), end ='')
+
